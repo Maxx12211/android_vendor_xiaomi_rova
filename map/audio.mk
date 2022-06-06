@@ -88,6 +88,25 @@ $(call copy-vendor-files, \
 $(call copy-vendor-files, \
     lib/libstagefright_soft_ac4dec.so \
     lib/libstagefright_soft_ddpdec.so \
+    bin/hw/vendor.dolby.hardware.dms@1.0-service \
+    etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
+    lib/libdapparamstorage.so \
+    lib/libstagefrightdolby.so \
+    lib/soundfx/libswdap.so \
+    vendor.dolby.hardware.dms@1.0.so \
+    lib64/libdapparamstorage.so \
+    lib64/libdlbdsservice.so \
+    lib64/soundfx/libswdap.so \
+    lib64/vendor.dolby.hardware.dms@1.0-impl.so \
+    lib64/vendor.dolby.hardware.dms@1.0.so \
+)
+# }}}
+
+# Dolby {{{
+$(call copy-system-ext-files, \
+    etc/permissions/com.dolby.daxservice.xml \
+    etc/permissions/com.motorola.dolby.dolbyui.features.xml \
+    etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml \
 )
 # }}}
 
