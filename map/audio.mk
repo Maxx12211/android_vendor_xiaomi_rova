@@ -84,6 +84,13 @@ $(call copy-vendor-files, \
 )
 # }}}
 
+# Audio Dobly {{{
+$(call copy-vendor-files, \
+    lib/libstagefright_soft_ac4dec.so \
+    lib/libstagefright_soft_ddpdec.so \
+)
+# }}}
+
 # Audiosphere {{{
 $(call copy-system-ext-files, \
     etc/permissions/audiosphere.xml \
