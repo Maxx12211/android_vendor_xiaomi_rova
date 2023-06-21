@@ -93,7 +93,7 @@ $(call copy-vendor-files, \
     lib/libdapparamstorage.so \
     lib/libstagefrightdolby.so \
     lib/soundfx/libswdap.so \
-    vendor.dolby.hardware.dms@1.0.so \
+    lib/vendor.dolby.hardware.dms@1.0.so \
     lib64/libdapparamstorage.so \
     lib64/libdlbdsservice.so \
     lib64/soundfx/libswdap.so \
